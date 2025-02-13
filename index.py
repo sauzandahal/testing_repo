@@ -1,1 +1,1 @@
-print("hello word")
+print("This is the new line of VS code")
