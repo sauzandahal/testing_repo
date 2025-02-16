@@ -1,1 +1,1 @@
-print("This is the new line of VS code")
+print("new line of VS code")
