@@ -48,7 +48,7 @@ print(f)  """
 
 
 
-f = 101
+""" f = 101
 print(f) 
 
 def someFunction():
@@ -63,4 +63,19 @@ someFunction()
  
 someFunction()
 
+print(f) """
+
+f=10
 print(f)
+
+def someFunction():
+    
+    global f
+    print(f)
+    
+    f="this is local function"
+    
+someFunction()
+print(f)
+
+
