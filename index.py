@@ -65,7 +65,7 @@ someFunction()
 
 print(f) """
 
-f=10
+""" f=10
 print(f)
 
 def someFunction():
@@ -76,6 +76,8 @@ def someFunction():
     f="this is local function"
     
 someFunction()
-print(f)
+print(f) """
 
 
+print("1000000000")
+print("10000000")
