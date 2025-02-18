@@ -116,5 +116,19 @@ if myString == "hello":
         
         if isinstance(myInt,int) and myInt == 20:
             print ("Integer: %d" % myInt)
+            
         
+    tup = ('ram','shyam','hari','krishna','gopal')
+    tup1 = (1,2,3,4,5)
+    print(tup[1])
+    print(tup1[1:4])
+    
+    
+    
+    
+    top = ("Gang", 100, "Hustle")
+    (led,num,moto) =top
+    print(led)
+    print(num)
+    print(moto)
     
