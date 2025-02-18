@@ -78,6 +78,43 @@ def someFunction():
 someFunction()
 print(f) """
 
+""" one = "one"
+two = "two"
 
-print("1000000000")
-print("10000000")
+three = one + two
+print(three)
+
+hello = "hello"
+world = "world"
+
+helloworld = hello + " " +world
+print (helloworld)
+
+a,b = 3,4
+print(a,b)
+ """
+""" a,b= 1,2
+one = "one"
+
+print(str(a)+one+str(b))
+
+result = str(a)+ " " +one + " " + str(b)
+print(result)
+
+print(f"{a} {one} {b}") """
+
+myString = "hello"
+myFloat = 10.0
+myInt = 20
+
+
+if myString == "hello":
+    print("String: %s " % myString )
+    
+    if isinstance(myFloat, float) and myFloat == 10.0:
+        print("Float: %f" % myFloat)
+        
+        if isinstance(myInt,int) and myInt == 20:
+            print ("Integer: %d" % myInt)
+        
+    
