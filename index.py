@@ -103,7 +103,7 @@ print(result)
 
 print(f"{a} {one} {b}") """
 
-myString = "hello"
+""" myString = "hello"
 myFloat = 10.0
 myInt = 20
 
@@ -121,14 +121,45 @@ if myString == "hello":
     tup = ('ram','shyam','hari','krishna','gopal')
     tup1 = (1,2,3,4,5)
     print(tup[1])
-    print(tup1[1:4])
+    print(tup1[1:4]) """
+
+
+def calculatea_sum():  
+    a = 19
+    b = 19
+    c = a + b
+    print(c)
+
+    calculatea_sum()
+
+""" def calculatea_sum():  # Function header
+    a = 19  # Indented properly
+    b = 19
+    c = a + b
+    print(c)
+
+calculatea_sum()  # Calling the function """
+
+
+
+n = int(input("enter  first number:"))
+m = int(input("enter the second number:"))
+
+def misMatch():
     
     
-    
-    
-    top = ("Gang", 100, "Hustle")
-    (led,num,moto) =top
-    print(led)
-    print(num)
-    print(moto)
-    
+    if ((n+m) >= 40):
+        
+        print(True)
+        
+        
+        
+        
+        name = input("enter your name: ")
+        
+        print("your name is:",name)
+        
+    else:
+        print(False)
+        
+misMatch()
