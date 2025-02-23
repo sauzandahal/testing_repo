@@ -142,7 +142,7 @@ calculatea_sum()  # Calling the function """
 
 
 
-n = int(input("enter  first number:"))
+""" n = int(input("enter  first number:"))
 m = int(input("enter the second number:"))
 
 def misMatch():
@@ -162,4 +162,23 @@ def misMatch():
     else:
         print(False)
         
-misMatch()
+misMatch() """
+
+
+
+""" n = int(input("Enter the number of rows: "))
+
+for i in range(n):
+    print(" " * (n - i - 1) + "*" * (2 * i + 1)) """
+
+"""    
+n = int(input("Enter the number of rows: "))
+
+for i in range(n):
+    print("*" * (2 * i + 1) + 5 +" " * (n - i - 1) ) """
+
+n = int(input("Enter the number of rows: "))
+
+for i in range(n):
+    # 'i' spaces at the beginning, then (2*(n-i)-1) stars
+    print(" " * i + "*" * (2 * (n - i) - 1))
