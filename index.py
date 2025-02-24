@@ -177,8 +177,65 @@ n = int(input("Enter the number of rows: "))
 for i in range(n):
     print("*" * (2 * i + 1) + 5 +" " * (n - i - 1) ) """
 
-n = int(input("Enter the number of rows: "))
+""" n = int(input("Enter the number of rows: "))
 
 for i in range(n):
     # 'i' spaces at the beginning, then (2*(n-i)-1) stars
-    print(" " * i + "*" * (2 * (n - i) - 1))
+    print(" " * i + "*" * (2 * (n - i) - 1)) """
+
+Dic = { 'Tim':10 , 'Charlie':15 , 'Brandon':11}
+
+print(Dic['Tim'])
+
+""" 
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}	
+print("Students Name: %s" % Dict.items()) """
+
+""" 
+Dict = {'Tim':10 , 'Charlie':15 ,'Hob':9, 'Brandon':11,'Bisop':4}
+Boy = {'Charlie':10 , 'Jim':15, 'Hob':9}
+girl = {'Tim':15}
+
+
+
+Students = Dict.keys()
+Students.sort()
+for S in Students:
+    print(":".join((S,str(Dict[S])))) """
+
+# del Dict ['Tim']
+
+
+# print(Dict)
+
+""" 
+for key in Boy.keys():
+    if key in Dict.keys():
+        print(True)
+    else:
+        print(False) """
+
+
+
+""" 
+for key in list(Boy.keys()):
+    if key in list(Dict.keys()):
+        print(True)
+    else:
+        print(False) """
+
+
+
+""" print("student name: %s" % list(Dict.items())) """
+
+
+""" StuX = Boy.copy()
+StuY = girl.copy()
+
+print(StuX)
+print(StuY) """
+
+
+
+
+
