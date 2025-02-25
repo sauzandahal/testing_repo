@@ -10,3 +10,6 @@ user_input = input("Enter your sensitive information: ")
 # Mask the user input
 masked_input = maskify(user_input)
 print(f"Masked output: {masked_input}")
+
+
+print("this is the new thing that i am trying")
