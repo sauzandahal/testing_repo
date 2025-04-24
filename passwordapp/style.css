@@ -1,0 +1,67 @@
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.password-field, .pin-field {
+    position: relative;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.toggle-password:focus, .copy-password:focus, .generate-password:focus {
+    box-shadow: none;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+/* Login and Register forms */
+.card.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border: none;
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+/* Dashboard styles */
+.password-card {
+    height: 100%;
+}
+
+.alert {
+    border-radius: 0.5rem;
+}
+
+/* Make input fields readonly but not visually disabled */
+input[readonly] {
+    background-color: #fff !important;
+    cursor: default !important;
+}
+
+/* Custom animation for clipboard copy success */
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.copy-tooltip {
+    animation: fadeInOut 1.5s ease-in-out;
+}
+
